@@ -1,0 +1,1 @@
+shift=~/(\d+)d(\d+)/;my$c;for(1..$1){$c+=1+int(rand($2));}print"$c\n";
