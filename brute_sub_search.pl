@@ -5,7 +5,7 @@ use Term::ANSIColor;
 my $searchterm = shift;
 my $toggle = shift;
 my $newDir = shift;
-my $PearlDir = "/Volumes/notFusion/gamedev/Companies/Feral/Development/Resources/Pearl";
+my $PearlDir = "PATHTOPERLDIR";
 if(-d $newDir){$PearlDir = $newDir;}
 if(defined($searchterm)){
   if(-d $PearlDir){
